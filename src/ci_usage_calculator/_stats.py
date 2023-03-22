@@ -43,7 +43,7 @@ def print_stats(stats, unit='job'):
 		print(f'    max: {max_builds}')
 		print(f'    avg: {build_count/datapoint_count:.2f}')
 
-		print(f"\nOverall {unit} duration stats:")
+		print(f"\nOverall {unit} duration stats (minutes):")
 		print(f'    min: {min_duration:.2f}')
 		print(f'    max: {max_duration:.2f}')
 		print(f'    avg: {overall_duration/datapoint_count:.2f}')
