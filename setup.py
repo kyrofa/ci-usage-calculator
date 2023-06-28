@@ -11,6 +11,7 @@ setup(
         "console_scripts": [
             "calculate-gitlab-usage=ci_usage_calculator.gitlab:main",
             "calculate-jenkins-usage=ci_usage_calculator.jenkins:main",
+            "extract-active-jenkins-jobs=ci_usage_calculator.jenkins_active_jobs:main",
         ]
     },
 )
